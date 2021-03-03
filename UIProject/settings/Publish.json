@@ -1,7 +1,7 @@
 {
   "path": "../Content/UI",
   "branchPath": "",
-  "fileExtension": "bytes",
+  "fileExtension": "fui",
   "packageCount": 2,
   "compressDesc": true,
   "binaryFormat": true,
@@ -25,7 +25,7 @@
     "paging": true,
     "sizeOption": "pot",
     "forceSquare": false,
-    "allowRotation": false,
+    "allowRotation": true,
     "trimImage": false
   },
   "include2x": true,
