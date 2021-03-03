@@ -1,0 +1,3 @@
+[submodule "Plugins/FairyGUI"]
+	path = Plugins/FairyGUI
+	url = https://github.com/fairygui/FairyGUI-unreal
