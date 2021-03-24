@@ -23,7 +23,7 @@
       <Button title="Pull To Refresh"/>
     </component>
     <component id="n8_oarg" name="n6" src="rftu4" fileName="Button.xml" xy="450,75" size="235,51">
-      <Button title="Modal Wait"/>
+      <Button title="Modal Waiting"/>
     </component>
     <component id="n9_oarg" name="n7" src="rftu4" fileName="Button.xml" xy="450,146" size="235,51">
       <Button title="Joystick"/>

@@ -17,3 +17,10 @@ void UDemoObject::OnDemoTick_Implementation()
 {
 
 }
+
+UWorld* UDemoObject::GetWorld() const {
+    if (!HasAnyFlags(RF_ClassDefaultObject | RF_ArchetypeObject))
+        return GetOuter()->GetWorld();
+    else
+        return nullptr;
+}

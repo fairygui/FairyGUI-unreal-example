@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "DemoObject.h"
+#include "JoystickModule.h"
 #include "DemoJoystick.generated.h"
 
 /**
@@ -17,6 +18,9 @@ class FGUITESTPROJECT_API UDemoJoystick : public UDemoObject
 
 public:
     virtual void OnDemoStart_Implementation() override;
-
     virtual void OnDemoEnd_Implementation() override;
+
+private:
+    UGComponent* MainView;
+    TSharedPtr<FJoystickModule> Joystick;
 };

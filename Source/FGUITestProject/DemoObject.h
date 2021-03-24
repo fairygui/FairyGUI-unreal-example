@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "FairyGUI.h"
 #include "DemoObject.generated.h"
 
 /**
@@ -23,4 +24,6 @@ public:
 
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void OnDemoTick();
+
+    virtual class UWorld* GetWorld() const override;
 };
